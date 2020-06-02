@@ -1,0 +1,7 @@
+<h1> This student will be deleted from your database </h1>
+<h2> The process is irreversible </h2>
+
+<form action="" method="POST">
+{% csrf_token %}
+	<input type="submit" name="confirm" value="Confirm">
+</form>
